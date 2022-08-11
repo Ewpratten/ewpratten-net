@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cd router/operating_system; make"
+			],
+			"problemMatcher": [],
+			"label": "ERL: Build OS Image",
+			"group": {
+				"kind": "build"
+			}
+		}
+	]
+}
