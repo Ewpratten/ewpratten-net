@@ -19,3 +19,4 @@ docker-image.sha: build_env/Dockerfile
 
 clean:
 	rm -rf iso
+	rm -rf workdir

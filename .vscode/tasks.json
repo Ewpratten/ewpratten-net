@@ -13,6 +13,16 @@
 			"group": {
 				"kind": "build"
 			}
+		},
+		{
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cd router/operating_system; sudo make clean"
+			],
+			"problemMatcher": [],
+			"label": "ERL: CLEAN",
 		}
 	]
 }
